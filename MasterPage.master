@@ -1,0 +1,246 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat ="server" >
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+<title>Electronic Voting System using Blockchain Technology</title>
+<meta name="keywords" content="pink, business, website themes, design, free templates, website templates, CSS, HTML" />
+<meta name="description" content="Pink Business Theme is a free website template from templatemo.com for all web designers and webmasters." />
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" type="text/css" href="content_slider_style.css" />
+<script type="text/javascript" src="js/jquery.1.3.2.min.js" ></script>
+<script type="text/javascript" src="js/jquery-ui.min.js" ></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#featured > ul").tabs({ fx: { opacity: "toggle"} }).tabs("rotate", 3000, true);
+    });
+</script>
+
+    <style type="text/css">
+        .style1
+        {
+            height: 21px;
+        }
+    </style>
+
+</head>
+<body>
+  <form id="form1" runat="server">
+<div id="templatemo_body_top">
+<div id="templatemo_body_bottom">
+<div id="templatemo_wrapper">
+	<div id="templatemo_header">
+        <div id="site_title">
+	        <h1><a href="http://www.templatemo.com"><strong style ="font-family :Calibri ; font-size :38px;">Electronic Voting System using Blockchain Technology</strong></a></h1>
+            <br />
+        </div> <!-- end of site_title -->    
+    </div>
+    
+    <div id="templatemo_menu">
+        <ul>
+            <li><a href ="Homepage.aspx" class="current">Homepage</a></li>
+            <li><a href="AdminLogin.aspx" >Admin Login</a></li>
+            <li><a href="FOLogin.aspx"  >Field Officer Login</a></li>
+            <li><a href="CandidateLogin.aspx"   >Nominee Login</a></li>
+            <li><a href="VoterLogin.aspx" >Voter Login</a></li>
+     
+        </ul>    	
+    </div> <!-- end of templatemo_menu -->
+    
+    <div id="templatemo_main_wrapper_01">
+    <div id="templatemo_main_wrapper_02">
+    <div id="templatemo_main_wrapper_03">
+    <div id="templatemo_main">
+    
+    
+    <div id="templatemo_slider">
+    
+    <div id="featured" >
+		  <ul class="ui-tabs-nav">
+	        <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-1"><a href="#fragment-1" style ="text-decoration :none;"><img src="img/v7.jpg" width ="80" height ="50" alt="" /><span style ="text-decoration :none;">Electronic Voting System. </span></a></li>
+	        <li class="ui-tabs-nav-item" id="nav-fragment-2"><a href="#fragment-2"  style ="text-decoration :none; "><img src="img/v5.jpg" width ="80" height ="50" alt="" /><span  style ="text-decoration :none;">Blockchain Technology.</span></a></li>
+	        <li class="ui-tabs-nav-item" id="nav-fragment-3"><a href="#fragment-3"  style ="text-decoration :none;"><img src="img/v6.jpg" width ="80" height ="50" alt="" /><span  style ="text-decoration :none;">Electronic Voting System.  </span></a></li>
+	        <li class="ui-tabs-nav-item" id="nav-fragment-4"><a href="#fragment-4"  style ="text-decoration :none;"><img src="img/v13.jpg" width ="80" height ="50" alt="" /><span  style ="text-decoration :none;">Blockchain Technology.</span></a></li>
+	      </ul>
+
+	    <!-- First Content -->
+	    <div id="fragment-1" class="ui-tabs-panel" style="">
+	      <img src="img/v7.jpg" alt="" width ="600" height ="250" />
+	      <div class="info" >
+    
+			 </div>
+	    </div>
+
+	    <!-- Second Content -->
+	    <div id="fragment-2" class="ui-tabs-panel ui-tabs-hide" style="">
+			<img src="img/v5.jpg" alt="" width ="600" height ="250" />
+			 <div class="info" >
+			
+			 </div>
+	    </div>
+
+	    <!-- Third Content -->
+	    <div id="fragment-3" class="ui-tabs-panel ui-tabs-hide" style="">
+			<img src="img/v6.jpg" alt="" width ="600" height ="250" />
+			 <div class="info" >
+				
+	         </div>
+	    </div>
+
+	    <!-- Fourth Content -->
+	    <div id="fragment-4" class="ui-tabs-panel ui-tabs-hide" style="">
+			<img src="img/v13.jpg" alt="" width ="600" height ="250" />
+			 <div class="info" >
+			
+	         </div>
+	    </div>
+
+	</div>
+	</div> <!-- end of templatemo_slider -->
+    	
+        <!-- end of fp services -->
+        
+    </div>
+    <div>
+    <table border="0">
+    <tr>
+    <td>
+        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" 
+            StaticEnableDefaultPopOutImage="False" Visible="False" 
+            Font-Names="Aharoni" Font-Size="15px">
+            <DynamicMenuItemStyle HorizontalPadding="30px" />
+            <Items>
+                <asp:MenuItem NavigateUrl="~/AdminLogin.aspx" Text="Admin Login" 
+                    Value="Admin Login"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/FOLogin.aspx" Text="Field Officer Login" 
+                    Value="Field Officer Login">
+                </asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/CandidateLogin.aspx" Text="Nominee Login" 
+                    Value="Nominee Login">
+                </asp:MenuItem>
+                <asp:MenuItem Text="Voter Login" 
+                    Value="Voter Login" NavigateUrl ="~/VoterLogin.aspx" ></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/PollingResults.aspx" Text="Result" Value="Result">
+                </asp:MenuItem>
+                <asp:MenuItem Text="Homepage" Value="Homepage" NavigateUrl="~/HomePage.aspx"></asp:MenuItem>
+            </Items>
+            <StaticMenuItemStyle HorizontalPadding="30px" />
+        </asp:Menu>
+        </td>
+    </tr>
+    <tr><td class="style1">
+    
+      <asp:Menu ID="Menu2" runat="server" Orientation="Horizontal" 
+            StaticEnableDefaultPopOutImage="False" Visible="False"  Font-Names="Aharoni" Font-Size="15px">
+            <DynamicMenuItemStyle HorizontalPadding="35px" />
+            <Items>
+                <asp:MenuItem Text="Election Date" 
+                    Value="Election Date">
+                    <asp:MenuItem NavigateUrl="~/ElectionDate.aspx" Text="Set Election Date" 
+                        Value="Set Election Date"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/AdminViewElectionDate.aspx" 
+                        Text="View Election Date" Value="View Election Date"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="Field Officer" Value="Field Officer">
+                    <asp:MenuItem NavigateUrl="~/FORegistration.aspx" Text="New Field Officer" 
+                        Value="New Field Officer"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/ViewFieldOfficer.aspx" Text="View Field Officer" 
+                        Value="View Field Officer"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/AdminViewNomineeDetails.aspx" Text="Nominee Details" 
+                    Value="Nominee Details">
+                </asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/AdminViewVoterDetails.aspx" Text="Voter Details" 
+                    Value="Voter Details"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/ResultDeclaration.aspx" Text="Declare Result" 
+                    Value="Declare Result"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/HomePage.aspx" Text="Logout" 
+                    Value="Logout">
+                </asp:MenuItem>
+            </Items>
+            <StaticMenuItemStyle HorizontalPadding="25px" />
+        </asp:Menu>
+    </td></tr>
+    <tr><td>
+    
+      <asp:Menu ID="Menu3" runat="server" Orientation="Horizontal" 
+            StaticEnableDefaultPopOutImage="False" Visible="False"  Font-Names="Aharoni" Font-Size="15px">
+            <DynamicMenuItemStyle HorizontalPadding="150px" />
+            <Items>
+                <asp:MenuItem NavigateUrl="~/ViewCandidateDetails.aspx" Text="View Profile" 
+                    Value="View Profile"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/HomePage.aspx" Text="Logout" 
+                    Value="Logout">
+                </asp:MenuItem>
+            </Items>
+            <StaticMenuItemStyle HorizontalPadding="150px" />
+        </asp:Menu>
+    </td></tr>
+    <tr><td>
+    
+      <asp:Menu ID="Menu4" runat="server" Orientation="Horizontal" 
+            StaticEnableDefaultPopOutImage="False" Visible="False"  Font-Names="Aharoni" Font-Size="15px">
+            <DynamicMenuItemStyle HorizontalPadding="100px" />
+            <Items>
+                <asp:MenuItem NavigateUrl="~/FieldOfficerViewVoterDetails.aspx" Text="Voter Details" 
+                    Value="Voter Details"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/HomePage.aspx" Text="Logout" 
+                    Value="Logout">
+                </asp:MenuItem>
+            </Items>
+            <StaticMenuItemStyle HorizontalPadding="150px" />
+        </asp:Menu>
+    </td></tr>
+    <tr><td>
+    
+      <asp:Menu ID="Menu5" runat="server" Orientation="Horizontal" 
+            StaticEnableDefaultPopOutImage="False" Visible="False"  Font-Names="Aharoni" Font-Size="15px">
+            <DynamicMenuItemStyle HorizontalPadding="40px" />
+            <Items>
+                <asp:MenuItem Text="Profile" 
+                    Value="Profile" NavigateUrl="~/VoterViewOurDetails.aspx">
+                </asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/UserViewElectionDate.aspx" Text="Election Date" 
+                    Value="Election Date">
+                </asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/VoterLoginFirstSecurity.aspx" Text="Polling" 
+                    Value="Polling"></asp:MenuItem>
+                <asp:MenuItem Text="Voting Status" Value="Voting Status" 
+                    NavigateUrl="~/UserViewVotingStatus.aspx"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/PollingResults.aspx" Text="Polling Result" 
+                    Value="Polling Result">
+                </asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/HomePage.aspx" Text="Logout" Value="Logout">
+                </asp:MenuItem>
+            </Items>
+            <StaticMenuItemStyle HorizontalPadding="40px" />
+        </asp:Menu>
+    </td></tr>
+    </table>
+    <br /><br />
+    </div>
+
+    <div style ="width :100%">
+     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+     </div>
+    <div class="cleaner"></div>
+    </div>
+    </div>
+    
+    <div id="templatemo_footer">
+    
+    </div> <!-- end of templatemo_footer -->
+
+</div>
+</div> <!-- end of wrapper -->
+</div>
+</div>
+</form>
+</body>
+</html>

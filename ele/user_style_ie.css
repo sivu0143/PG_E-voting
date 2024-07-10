@@ -1,0 +1,114 @@
+UNKNOWN {
+	font-SIZE: 11px; COLOR: #3366ff; font-FaMILY: Verdana; TEXT-DECORaTION: underline
+}
+.linkblueSmall {
+	font-SIZE: 11px; COLOR: #3366ff; font-FaMILY: Verdana; TEXT-DECORaTION: underline
+}
+UNKNOWN {
+	font-SIZE: 11px; COLOR: #003399; font-FaMILY: Verdana; TEXT-DECORaTION: none
+}
+a.linkWhite {
+	font-SIZE: 11px; COLOR: #ffffff; font-FaMILY: Verdana; TEXT-DECORaTION: underline
+}
+UNKNOWN {
+	font-SIZE: 11px; COLOR: #ffffff; font-FaMILY: Verdana; TEXT-DECORaTION: none
+}
+.linkbluebig {
+	font-SIZE: 13px; COLOR: #3366ff; font-FaMILY: Verdana; TEXT-DECORaTION: underline
+}
+UNKNOWN {
+	font-SIZE: 13px; COLOR: #003399; font-FaMILY: Verdana; TEXT-DECORaTION: none
+}
+.fontbluebig {
+	font-SIZE: 16px; COLOR: #003366; font-FaMILY: Verdana
+}
+.fontblueSmall {
+	font-SIZE: 11px; COLOR: #003366; font-FaMILY: Verdana
+}
+.fontblackSmall {
+	font-SIZE: 11px; COLOR: #000000; font-FaMILY: Verdana
+}
+.fontblackbig {
+	font-SIZE: 12px; COLOR: #000000; font-FaMILY: Verdana
+}
+.fontarticle {
+	font-SIZE: 12px; COLOR: #000000; font-FaMILY: arial
+}
+.Listback1 {
+	baCKGROUND: #93bee2
+}
+.Listback2 {
+	baCKGROUND: #eff7ff
+}
+.Listback3 {
+	baCKGROUND: #deeff7
+}
+.linkblack {
+	font-SIZE: 11px; COLOR: #000000; font-FaMILY: Verdana; TEXT-DECORaTION: underline
+}
+UNKNOWN {
+	font-SIZE: 11px; COLOR: #000000; font-FaMILY: Verdana; TEXT-DECORaTION: none
+}
+.linkblue {
+	font-SIZE: 11px; COLOR: #3366ff; font-FaMILY: Verdana; TEXT-DECORaTION: underline
+}
+UNKNOWN {
+	font-SIZE: 11px; COLOR: #003366; font-FaMILY: Verdana; TEXT-DECORaTION: none
+}
+.linkFoot {
+	font-SIZE: 11px; COLOR: #666666; font-FaMILY: Verdana; TEXT-DECORaTION: none
+}
+.linkFoot:hover {
+	font-WEIGHT: normal; font-SIZE: 11px; COLOR: #003366; font-FaMILY: Verdana; TEXT-DECORaTION: underline
+}
+.fontblack {
+	font-SIZE: 11px; COLOR: #000000; font-FaMILY: Verdana
+}
+.fontWhite {
+	font-SIZE: 11px; COLOR: #ffffff; font-FaMILY: Verdana
+}
+.fontTitle {
+	font-WEIGHT: bold; font-SIZE: 13px; COLOR: #000000; font-FaMILY: Verdana
+}
+.fontblue {
+	font-SIZE: 11px; COLOR: #003366; font-FaMILY: Verdana
+}
+.fontDate {
+	font-SIZE: 11px; COLOR: #336699; font-FaMILY: Verdana
+}
+.fontFoot {
+	font-SIZE: 11px; COLOR: #666666; font-FaMILY: Verdana
+}
+.fontFootSmall {
+	font-SIZE: 9px; COLOR: #666666; font-FaMILY: Verdana
+}
+.button {
+	font-WEIGHT: bold; font-SIZE: 11px; baCKGROUND: #f0f0f0; COLOR: #000000; font-FaMILY: Verdana; HEIGHT: 20px
+}
+.Textbox {
+	font-SIZE: 11px; baCKGROUND: #ffffff; COLOR: #000000; font-FaMILY: Verdana; HEIGHT: 20px
+}
+.Textarea {
+	font-SIZE: 11px; baCKGROUND: #ffffff; COLOR: #000000; font-FaMILY: Verdana
+}
+.Select {
+	font-SIZE: 11px; baCKGROUND: #ffffff; COLOR: #000000; font-FaMILY: Verdana; HEIGHT: 20px
+}
+.SelectNavigate {
+	font-SIZE: 11px; baCKGROUND: #ffffff; WIDTH: 135px; COLOR: #000000; font-FaMILY: Tahoma
+}
+td.menuColorMedium {
+	baCKGROUND-COLOR: #3366aa
+}
+td.MenuColorLow {
+	baCKGROUND-COLOR: #adc2eb
+}
+.bodybGColor1 {
+	baCKGROUND-COLOR: #adc2eb
+}
+.bodybGColor2 {
+	baCKGROUND-COLOR: #deeff7
+}
+.bodybGColor3 {
+	baCKGROUND-COLOR: #eff7ff
+}
